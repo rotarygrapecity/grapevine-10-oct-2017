@@ -1,0 +1,35 @@
+.titleImg {
+  padding: 5% 5% 5% 5%;
+  text-align: center;
+  width: 50%;
+}
+
+.speechBody {
+  padding: 5% 5% 5% 5%;
+  text-align: justify;
+}
+
+
+.imgLeft {
+  display: inline-block; 
+  max-width: 100%; 
+}
+
+.imgRight {
+  display: inline-block; 
+  max-width: 100%; 
+}
+
+@media screen and (min-width: 480px) {
+  .imgLeft {
+    display: inline-block; 
+    max-width: 40%; 
+    padding:  0 5% 1% 0;    
+  }
+
+  .imgRight {
+    display: inline-block; 
+    max-width: 40%; 
+    padding:  1% 0 1% 5%;
+  }
+}
